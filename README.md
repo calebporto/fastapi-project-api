@@ -29,3 +29,9 @@ de relatórios financeiros por período, saídas e entradas ou ambos;
 <p>- Isolar as transações com o banco de dados do Backend, gerando mais algumas camadas de segurança;</p>
 <p>- Facilitar a manutenção da aplicação;</p>
 <p>- Dividir o projeto em blocos, conforme arquitetura de microsserviços.</p>
+<h3>Observações:</h3>
+<p>Caso queira baixar o código para rodar no seu computador, você deve saber que para acessar a API
+pelo localhost, deve ser fornecido um cabeçalho {'api_key':<...>, 'id':<...>}, onde os valores fornecidos no cabeçalho devem coincidir com as variáveis de ambiente de mesmo nome.
+Para isso, você deve criar um arquivo .env dentro da pasta models, com as variáveis API_KEY e AUTHORIZED_ID, com os valores que você achar melhor. Esses valores devem ser os mesmos do cabeçalho 
+fornecido na requisição http.</p>
+<p>Você deve instalar as dependencias com o comando 'pip install -r requirements.txt' no seu terminal, e para rodar o código, digite no terminal: 'uvicorn main:app --port=8000 --reload'</p>
