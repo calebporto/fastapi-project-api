@@ -10,9 +10,9 @@
 <p>- Painel de membros, com autorização de acesso via registro de sessão de usuário com cookies;
 <p>- Painel administrativo, com diversas funções para manutenção de usuários, registro de entradas e saídas de valores, visualização
 de relatórios financeiros por período, saídas e entradas ou ambos;
-<p>- Scheduler (agendador de tarefas) para envio de e-mail, whatsapp e geração automática de relatórios por período;
-<p>- Registro de logs de erros;
-<p>- Senha exclusiva para designers, para fácil manutenção da parte gráfica das páginas públicas.
+<p>- Scheduler (agendador de tarefas) para envio de e-mail, whatsapp e geração automática de relatórios por período; (Em desenvolvimento)
+<p>- Registro de logs de erros; (Em desenvolvimento)
+<p>- Senha exclusiva para designers, para fácil manutenção da parte gráfica das páginas públicas. (Em desenvolvimento)
 
 <h4>Arquitetura:</h4>
 <p>Cliente <------> Backend <-------> API <-------> Banco de Dados</p>
